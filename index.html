@@ -1,0 +1,139 @@
+ <!-- Producto 1 - Shampoo para perro -->
+    <div class="product-card">
+        <img src="IMG/ShampooP.jpg" alt="Shampoo para perro" style="width: 300px; height: 180px;">
+        <h3>Shampoo para Perro</h3>
+        <p>Shampoo especial para perros con piel sensible.</p>
+        <div class="price">$39.99</div>
+
+        <!-- Formulario para cantidad -->
+        <div class="quantity-select">
+            <label for="cantidad1">Cantidad:</label>
+            <select id="cantidad1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+
+        <!-- Botón de compra -->
+        <form action="formulario.html" method="POST">
+            <input type="hidden" name="producto" value="Shampoo para Perro">
+            <input type="hidden" name="precio" value="$39.99">
+            <input type="hidden" name="cantidad" id="hiddenCantidad1" value="1">
+            <button type="submit" onclick="actualizarCantidad('cantidad1', 'hiddenCantidad1')">Comprar</button>
+        </form>
+    </div>
+
+    <!-- Producto 2 - Toalla para perro -->
+    <div class="product-card">
+        <img src="IMG/toallas.jpg" alt="Toalla para tu peludo" style="width: 300px; height: 180px;">
+        <h3>Toalla para tu peludo</h3>
+        <p>Toalla absorbente para secar a tu peludo rápidamente.</p>
+        <div class="price">$30.49</div>
+
+        <!-- Formulario para cantidad -->
+        <div class="quantity-select">
+            <label for="cantidad2">Cantidad:</label>
+            <select id="cantidad2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+
+        <!-- Botón de compra -->
+        <form action="formulario.html" method="POST">
+            <input type="hidden" name="producto" value="Toalla para tu peludo">
+            <input type="hidden" name="precio" value="$30.49">
+            <input type="hidden" name="cantidad" id="hiddenCantidad2" value="1">
+            <button type="submit" onclick="actualizarCantidad('cantidad2', 'hiddenCantidad2')">Comprar</button>
+        </form>
+    </div>
+
+    <!-- Producto 3 - Jabón para perro -->
+    <div class="product-card">
+        <img src="IMG/jabon.jpg" alt="Jabón para perro" style="width: 300px; height: 180px;">
+        <h3>Jabón para Perro</h3>
+        <p>Jabón para perros con piel delicada.</p>
+        <div class="price">$35.99</div>
+
+        <!-- Formulario para cantidad -->
+        <div class="quantity-select">
+            <label for="cantidad3">Cantidad:</label>
+            <select id="cantidad3">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+
+        <!-- Botón de compra -->
+        <form action="formulario.html" method="POST">
+            <input type="hidden" name="producto" value="Jabón para Perro">
+            <input type="hidden" name="precio" value="$35.99">
+            <input type="hidden" name="cantidad" id="hiddenCantidad3" value="1">
+            <button type="submit" onclick="actualizarCantidad('cantidad3', 'hiddenCantidad3')">Comprar</button>
+        </form>
+    </div>
+
+    <!-- Producto 4 - Champú en seco para mascotas -->
+    <div class="product-card">
+        <img src="IMG/shampoo_seco.jpg" alt="Champú en seco" style="width: 300px; height: 180px;">
+        <h3>Champú en Seco para Mascotas</h3>
+        <p>Ideal para mantener a tu mascota limpia sin necesidad de agua.</p>
+        <div class="price">$29.99</div>
+
+        <!-- Formulario para cantidad -->
+        <div class="quantity-select">
+            <label for="cantidad4">Cantidad:</label>
+            <select id="cantidad4">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+
+        <!-- Botón de compra -->
+        <form action="formulario.html" method="POST">
+            <input type="hidden" name="producto" value="Champú en Seco para Mascotas">
+            <input type="hidden" name="precio" value="$29.99">
+            <input type="hidden" name="cantidad" id="hiddenCantidad4" value="1">
+            <button type="submit" onclick="actualizarCantidad('cantidad4', 'hiddenCantidad4')">Comprar</button>
+        </form>
+    </div>
+
+    <!-- Producto 5 - Cortauñas para perros -->
+    <div class="product-card">
+        <img src="IMG/cortauñas.jpg" alt="Cortauñas para perros" style="width: 300px; height: 180px;">
+        <h3>Cortauñas para Perros</h3>
+        <p>Herramienta segura para cortar las uñas de tu perro.</p>
+        <div class="price">$12.49</div>
+        
+        <!-- Formulario para cantidad -->
+        <div class="quantity-select">
+            <label for="cantidad4">Cantidad:</label>
+            <select id="cantidad4">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+
+        <!-- Botón de compra -->
+        <form action="formulario.html" method="POST">
+            <input type="hidden" name="producto" value="Champú en Seco para Mascotas">
+            <input type="hidden" name="precio" value="$29.99">
+            <input type="hidden" name="cantidad" id="hiddenCantidad4" value="1">
+            <button type="submit" onclick="actualizarCantidad('cantidad4', 'hiddenCantidad4')">Comprar</button>
+        </form>
+    </div>
